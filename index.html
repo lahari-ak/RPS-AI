@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RPS AI Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🤖 Rock Paper Scissors AI</h1>
+
+  <div class="scoreboard">
+    <p>👤 You: <span id="userScore">0</span></p>
+    <p>🤖 AI: <span id="aiScore">0</span></p>
+  </div>
+
+  <p>Round: <span id="round">0</span>/5</p>
+
+  <div class="buttons">
+    <button onclick="play('rock')">🪨</button>
+    <button onclick="play('paper')">📄</button>
+    <button onclick="play('scissors')">✂️</button>
+  </div>
+
+  <div class="result">
+    <p id="userMove"></p>
+    <p id="aiMove"></p>
+    <h2 id="winner"></h2>
+  </div>
+
+  <button class="reset" onclick="resetGame()">Reset</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
