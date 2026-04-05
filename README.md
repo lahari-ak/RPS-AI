@@ -1,19 +1,12 @@
-# 🤖 Rock Paper Scissors AI
-
+ 🤖 Rock Paper Scissors AI:
 An interactive AI-based game where the computer predicts user moves.
-
-## 🚀 Features
+ Features:
 - Smart AI (pattern-based prediction)
 - Live scoreboard
 - Responsive UI
 - Reset functionality
-
-## 🧠 Tech Used
+  Tech Used :
 - HTML, CSS, JavaScript
-
-## 🌐 Live Demo
-https://your-username.github.io/rps-ai/
-
-## 📌 Future Improvements
+  Future Improvements:
 - Machine Learning model
 - Multiplayer mode
